@@ -1,5 +1,10 @@
 import React from 'react';
+import JourneyPicker from '../JourneyPicker/index';
 
-const Home = () => <h2>Home</h2>;
+const Home = () => (
+  <>
+    <JourneyPicker />
+  </>
+);
 
 export default Home;
